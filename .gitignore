@@ -1,0 +1,15 @@
+.DS_Store
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+*.o
+*.so
+*.dll
+*.dylib
+src/*.rds
+
+*.tar.gz
+*.Rcheck/
+..Rcheck/
