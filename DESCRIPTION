@@ -1,0 +1,25 @@
+Package: DROP
+Type: Package
+Title: Distributionally Robust Optimization for Precision Matrices
+Version: 0.1.0
+Authors@R: person("Canruo", "Shen", email = "canruo.shen@ubc.ca", 
+    role = c("aut", "cre"))
+Description: Implements adaptive distributionally robust optimization (DROP) for 
+    estimating high-dimensional Gaussian graphical models. The method achieves 
+    robust graph recovery through a rank-based inverse normal transformation 
+    and efficiently solves the adaptive-weighted objective function using a 
+    coordinate descent algorithm with C++ acceleration and parallel computing 
+    for improved performance.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: MASS, CovTools, Rcpp (>= 1.0.0), parallel, huge
+LinkingTo: Rcpp
+Suggests: testthat (>= 3.0.0), openxlsx, igraph, ggplot2, readxl,
+    Matrix, scalreg, scio, GGMncv, flare
+RoxygenNote: 7.3.3
+NeedsCompilation: yes
+SystemRequirements: C++11
+Packaged: 2026-02-25 22:22:54 UTC; canruo
+Author: Canruo Shen [aut, cre]
+Maintainer: Canruo Shen <canruo.shen@ubc.ca>
